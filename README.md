@@ -23,7 +23,7 @@ We merge creativity, strategy, and code to build impactful digital products.
 
 ## 🔗 Live 
 
-[""](http://kod3rd.com/)
+["Kod3rd web in live: click here"](http://kod3rd.com/)
 
 ---------------
 

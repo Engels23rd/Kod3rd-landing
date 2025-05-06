@@ -30,17 +30,11 @@ We merge creativity, strategy, and code to build impactful digital products.
 
 
 ![1](https://github.com/user-attachments/assets/9cd4920e-31d1-4c9e-b5de-d32b4b0ba19f)
-
 ![2](https://github.com/user-attachments/assets/40875b92-ab8a-42c8-83ea-98fa612cee7c)
-
 ![3](https://github.com/user-attachments/assets/e9f9bf41-97ff-4e53-b65e-fda6ea6451e3)
-
 ![4](https://github.com/user-attachments/assets/99e6590d-6bcc-4237-95cb-6ad339f53c5d)
-
 ![5](https://github.com/user-attachments/assets/e4dac272-636c-41ca-8c03-0aae838ac1d0)
-
 ![6](https://github.com/user-attachments/assets/71a60e59-0709-465a-8b6c-ad2a64bd183e)
-
 ![7](https://github.com/user-attachments/assets/53aafaf5-6e8f-426c-8ba4-4d4014d7dacf)
 
 

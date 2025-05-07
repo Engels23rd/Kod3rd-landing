@@ -129,36 +129,23 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 				}</style>
 			</head>
 			<script>
-				const navbar = document.querySelector('.site-header'); // Ya vi que es tu navbar
-				let lastScrollTop = 0;
+				let prevScrollpos = window.pageYOffset;
+				const navbar = document.querySelector(".site-header");
 			  
-				window.addEventListener("scroll", function () {
-				  const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-			  
-				  if (currentScroll > lastScrollTop) {
-					// Scroll hacia abajo: ocultar navbar
-					navbar.style.top = "-100px";
-				  } else {
-					// Scroll hacia arriba: mostrar navbar
+				window.onscroll = function () {
+				  let currentScrollPos = window.pageYOffset;
+				  if (prevScrollpos > currentScrollPos) {
 					navbar.style.top = "0";
+				  } else {
+					navbar.style.top = "-120px"; // Ajusta si tu navbar es más pequeño
 				  }
-			  
-				  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-				}, false);
+				  prevScrollpos = currentScrollPos;
+				};
 			  </script>
 			  
 			  <style>
-				.ehp-header {
-				  position: fixed;
-				  top: 0;
-				  width: 100%;
-				  z-index: 999;
-				  transition: top 0.3s ease;
-				}
-			  
-				/* Compensar el espacio debajo del navbar para evitar que tape la primera sección */
 				#INICIO {
-				  margin-top: 175px;
+				  margin-top: 150px;
 				}
 			  </style>
 			  
